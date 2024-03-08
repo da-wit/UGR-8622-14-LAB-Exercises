@@ -1,0 +1,9 @@
+name: lab_1_asynchronous_programming
+
+description: Your project description
+
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+
+dependencies:
+  http: ^0.13.3
