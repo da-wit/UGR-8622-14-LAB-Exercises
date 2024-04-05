@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/rendering.dart';
-// import 'package:flutter/widgets.dart';
 
 class Screen3 extends StatelessWidget {
-  // String title;
-  // const Screen3(this.title);
   const Screen3({super.key});
 
   @override
@@ -58,12 +54,12 @@ class Screen3 extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [Text('Order Id'), Spacer(), Text('#52')],
                 ),
                 const Divider(),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text('Order date '),
@@ -73,7 +69,7 @@ class Screen3 extends StatelessWidget {
                 )
               ],
             )),
-        SizedBox(
+        const SizedBox(
           height: 10,
         ),
         Container(
